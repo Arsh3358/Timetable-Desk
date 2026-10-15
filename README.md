@@ -1,3 +1,4 @@
+HEAD
 # Timetable Desk
 
 Smart Resource Booking, Faculty Load and Timetable Management.
@@ -112,3 +113,7 @@ The login card has four screens: **Sign in** (username or email), **Create new a
 
 ## Upgrading from the first version
 If you already have a `backend/data.db`, it upgrades itself on start. Departments, teachers, venues and bookings are kept; subjects, assignments and timetables are reset because they now need a semester and a class. Re-add them, or delete `data.db` and run `npm run seed` for fresh demo data.
+=======
+# Timetable-Desk
+Smart Resource Booking, Faculty Load &amp; Timetable Management: a full-stack web app that automatically generates conflict-free semester timetables for classes, teachers, classrooms and labs.
+f9249509c1e3eb631df89f4eba873aaf55d6045e
